@@ -10,5 +10,8 @@ package StudentAnswerVersion;
  * @author knyghtspup
  */
 public abstract class Display3D implements Display{
-    
+    @Override
+    public void displayMode() {
+        System.out.println("I'm three-dimensional!");
+    }
 }
