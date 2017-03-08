@@ -10,5 +10,5 @@ package StudentAnswerVersion;
  * @author knyghtspup
  */
 public interface Display {
-    
+    public abstract void displayMode();
 }

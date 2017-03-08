@@ -9,6 +9,6 @@ package StudentAnswerVersion;
  *
  * @author knyghtspup
  */
-public class FlyWithWings {
+public abstract class FlyWithWings implements Flyable{
     
 }

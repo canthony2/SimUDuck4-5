@@ -9,6 +9,6 @@ package StudentAnswerVersion;
  *
  * @author knyghtspup
  */
-public class Squeak {
+public abstract class Squeak implements Quackable{
     
 }

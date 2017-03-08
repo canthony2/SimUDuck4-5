@@ -9,6 +9,6 @@ package StudentAnswerVersion;
  *
  * @author knyghtspup
  */
-public abstract class Duck implements Flyable, Quackable{
+public abstract class Duck {
     
 }
