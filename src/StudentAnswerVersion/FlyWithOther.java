@@ -9,6 +9,6 @@ package StudentAnswerVersion;
  *
  * @author knyghtspup
  */
-public interface Flyable {
-    public abstract void fly();
+public class FlyWithOther {
+    
 }

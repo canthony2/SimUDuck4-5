@@ -10,5 +10,5 @@ package StudentAnswerVersion;
  * @author knyghtspup
  */
 public interface Quackable {
-    
+    public abstract void quack();
 }
