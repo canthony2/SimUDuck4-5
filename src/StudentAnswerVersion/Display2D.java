@@ -9,9 +9,9 @@ package StudentAnswerVersion;
  *
  * @author knyghtspup
  */
-public abstract class Display2D implements Display{
+public abstract class Display2D implements DisplayMode{
     @Override
-    public void displayMode() {
+    public void display() {
         System.out.println("I'm two-dimensional!");
     }
 }

@@ -14,13 +14,13 @@ public class Duck {
     private String name;
     private Flyable flyable;
     private Quackable quackable;
-    private Display display;
+    private DisplayMode displayMode;
     
-    public Duck(String name, Flyable flyable, Quackable quackable, Display display) {
+    public Duck(String name, Flyable flyable, Quackable quackable, DisplayMode displayMode) {
         this.name = name;
         this.flyable = flyable;
         this.quackable = quackable;
-        this.display = display;
+        this.displayMode = displayMode;
     }
 
     public String getName() {
@@ -47,12 +47,12 @@ public class Duck {
         this.quackable = quackable;
     }
 
-    public Display getDisplay() {
-        return display;
+    public DisplayMode getDisplayMode() {
+        return displayMode;
     }
 
-    public final void setDisplay(Display display) {
-        this.display = display;
+    public final void setDisplayMode(DisplayMode displayMode) {
+        this.displayMode = displayMode;
     }
     
     public final void performFly() {
@@ -64,7 +64,7 @@ public class Duck {
     }
     
     public final void performDisplay() {
-        display.displayMode();
+        displayMode.display();
     }
     
 }

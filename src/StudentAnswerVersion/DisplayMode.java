@@ -9,6 +9,6 @@ package StudentAnswerVersion;
  *
  * @author knyghtspup
  */
-public interface Display {
-    public abstract void displayMode();
+public interface DisplayMode {
+    public abstract void display();
 }
