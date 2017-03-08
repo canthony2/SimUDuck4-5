@@ -9,14 +9,19 @@ package StudentAnswerVersion;
  *
  * @author knyghtspup
  */
-public abstract class Duck {
+public class Duck {
     
     private String name;
     private Flyable flyable;
     private Quackable quackable;
     private Display display;
     
-    public Duck () {}
+    public Duck(String name, Flyable flyable, Quackable quackable, Display display) {
+        this.name = name;
+        this.flyable = flyable;
+        this.quackable = quackable;
+        this.display = display;
+    }
 
     public String getName() {
         return name;
@@ -56,6 +61,10 @@ public abstract class Duck {
     
     public final void performQuack() {
         quackable.quack();
+    }
+    
+    public final void performDisplay() {
+        display.displayMode();
     }
     
 }
