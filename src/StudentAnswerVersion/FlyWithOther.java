@@ -10,5 +10,8 @@ package StudentAnswerVersion;
  * @author knyghtspup
  */
 public abstract class FlyWithOther implements Flyable{
-    
+    @Override
+    public void fly() {
+        System.out.println("I believe I can fly! I believe I can touch the sky!");
+    }
 }
