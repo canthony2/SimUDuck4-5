@@ -10,5 +10,8 @@ package StudentAnswerVersion;
  * @author knyghtspup
  */
 public class StartUp {
+    private static void method() {
+        
+    }
     
 }
